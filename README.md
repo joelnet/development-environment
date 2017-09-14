@@ -7,7 +7,9 @@ Chocolately is a package manager for Windows, similar to `apt` for Ubuntu. It wi
 
 #### Install with PowerShell
 
-`Set-ExecutionPolicy AllSigned; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))`
+```
+Set-ExecutionPolicy AllSigned; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+```
 
 ## Shell
 
