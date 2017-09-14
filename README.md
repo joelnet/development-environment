@@ -88,9 +88,10 @@ more docs at https://github.com/tj/n
 
 GIT will just keep complaining unless you set this stuff, so just do it.
 
-`git config --global user.name "Jesse Custer"`
-
-`git config --global user.email "email@example.com"`
+```
+git config --global user.name "Jesse Custer"
+git config --global user.email "email@example.com"
+```
 
 ### Simple Push
 
