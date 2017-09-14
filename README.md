@@ -3,7 +3,7 @@ Settings for _my_ development environments.
 
 ## Chocolately
 
-Chocolately is a package manager, similar to `apt` for Ubuntu. It will let you install software using a command like `choco install docker`.
+Chocolately is a package manager for Windows, similar to `apt` for Ubuntu. It will let you install software using a command like `choco install docker`.
 
 #### Install with PowerShell
 
