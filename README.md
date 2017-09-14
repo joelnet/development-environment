@@ -84,6 +84,14 @@ more docs at https://github.com/tj/n
 
 ## GIT
 
+#### Debian Install
+
+`apt-get install git`
+
+#### Windows Install (Chocolately)
+
+`choco install git`
+
 ### Set Author
 
 GIT will just keep complaining unless you set this stuff, so just do it.
