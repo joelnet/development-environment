@@ -62,6 +62,24 @@ Settings are self documenting.
 }
 ```
 
+## Node
+
+### Node Version Management
+
+Even if you don't switch between node versions often, `n` makes upgrades no-brain-simple.
+
+`npm install -g n`
+
+Useful commands:
+
+```
+sudo n latest
+sudo n stable
+sudo n lts
+```
+
+more docs at https://github.com/tj/n
+
 ## GIT
 
 ### Set Author
