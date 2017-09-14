@@ -3,6 +3,14 @@ Settings for my development environments
 
 ## GIT
 
+### Set Author
+
+GIT will just keep complaining unless you set this stuff, so just do it.
+
+`git config --global user.name "Jesse Custer"`
+
+`git config --global user.email "email@example.com"`
+
 ### Simple Push
 
 Simple push allows you to do `git push` or `git pull` to push the current branch.
