@@ -11,9 +11,30 @@ Chocolately is a package manager, similar to `apt` for Ubuntu. It will let you i
 
 ## Shell
 
+### Install Hyper
+
 Hyper for Windows is a great alternative to CMD or PowerShell that integrates with the Linux Subsystem so you can use bash and zsh.
 
 https://hyper.is/ or `choco install hyper`
+
+### Install Oh My Zsh
+
+![gentoo for Oh My Zsh](https://github.com/joelnet/development-environment/blob/master/content/oh-my-zsh-gentoo.png)
+
+```
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+```
+
+edit `~/.zshrc` to set the `gentoo` plugin
+
+```
+ZSH_THEME="gentoo"
+```
+
+more themes here: https://github.com/robbyrussell/oh-my-zsh/wiki/themes
 
 ## Visual Studio Code
 
