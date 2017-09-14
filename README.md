@@ -1,5 +1,5 @@
 # development-environment
-Settings for _my_ development environments.
+Settings for _my_ development environments. I have a mix of Windows and Linux boxes which is why you will find a mix of Windows and Linux commands. On Windows I use the Linux Subsystem.
 
 ## Chocolately
 
