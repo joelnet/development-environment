@@ -1,5 +1,31 @@
 # development-environment
-Settings for my development environments
+Settings for _my_ development environments.
+
+## Visual Studio Code
+
+Settings are self documenting.
+
+```json
+// Place your settings in this file to overwrite the default settings
+{
+  "telemetry.enableTelemetry": false,
+  "editor.fontSize": 15,
+  "editor.renderWhitespace": "all",
+  "editor.tabSize": 2,
+  "files.eol": "\n",
+  "terminal.integrated.shellArgs.windows": ["-l"],
+  "terminal.integrated.fontFamily": "Consolas",
+  "terminal.integrated.fontSize": 15,
+  "terminal.integrated.shell.windows": "C:\\Windows\\sysnative\\bash.exe",
+  "window.zoomLevel": 0,
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "coverage": true
+  },
+  "editor.multiCursorModifier": "ctrlCmd"
+}
+```
 
 ## GIT
 
