@@ -1,6 +1,20 @@
 # development-environment
 Settings for _my_ development environments.
 
+## Chocolately
+
+Chocolately is a package manager, similar to `apt` for Ubuntu. It will let you install software using a command like `choco install docker`.
+
+#### Install with PowerShell
+
+`Set-ExecutionPolicy AllSigned; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))`
+
+## Shell
+
+Hyper for Windows is a great alternative to CMD or PowerShell that integrates with the Linux Subsystem so you can use bash and zsh.
+
+https://hyper.is/ or `choco install hyper`
+
 ## Visual Studio Code
 
 Settings are self documenting.
