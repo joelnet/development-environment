@@ -3,6 +3,16 @@ Settings for my development environments
 
 ## GIT
 
+### Simple Push
+
+Simple push allows you to do `git push` or `git pull` to push the current branch.
+
+To setup:
+
+`git config --global push.default simple`
+
+Note: You still have to do a one time `git push -u <remote> <remote/branch>` to set the upstream branch.
+
 ### Pretty Format Logs
 
 #### Install
