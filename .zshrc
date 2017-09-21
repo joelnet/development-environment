@@ -87,3 +87,7 @@ source $ZSH/oh-my-zsh.sh
 
 autoload -U promptinit; promptinit
 prompt pure
+
+# Custom Alias
+alias code="/mnt/c/Program\ Files/Microsoft\ VS\ Code/Code.exe"
+alias explorer="/mnt/c/Windows/explorer.exe"
