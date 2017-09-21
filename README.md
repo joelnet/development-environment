@@ -38,6 +38,18 @@ ZSH_THEME="gentoo"
 
 more themes here: https://github.com/robbyrussell/oh-my-zsh/wiki/themes
 
+### ZSH Aliases for Windows
+
+Add the ability to launch applications from the shell.
+
+Examples could be `code file.txt` or `code .` or `explorer .`
+
+```
+# Custom Alias
+alias code="/mnt/c/Program\ Files/Microsoft\ VS\ Code/Code.exe"
+alias explorer="/mnt/c/Windows/explorer.exe"
+```
+
 ## Visual Studio Code
 
 Settings are self documenting.
