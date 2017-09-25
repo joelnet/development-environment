@@ -11,6 +11,8 @@ Chocolately is a package manager for Windows, similar to `apt` for Ubuntu. It wi
 Set-ExecutionPolicy AllSigned; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 ```
 
+Drop custom [.hyper.js](./content/.hyper.js) into C:\Users\<User>\
+
 ## Shell
 
 ### Install Hyper
@@ -18,6 +20,8 @@ Set-ExecutionPolicy AllSigned; iex ((New-Object System.Net.WebClient).DownloadSt
 Hyper for Windows is a great alternative to CMD or PowerShell that integrates with the Linux Subsystem so you can use bash and zsh.
 
 https://hyper.is/ or `choco install hyper`
+
+Custom
 
 ### Install Oh My Zsh
 
