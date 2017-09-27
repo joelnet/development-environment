@@ -79,6 +79,9 @@ Settings are self documenting.
   "editor.multiCursorModifier": "ctrlCmd"
 }
 ```
+### Extensions
+
+* [C# for Visual Studio Code ](https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp&dotnetid=1995460832.1502310825)
 
 ## Node
 
