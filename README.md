@@ -81,7 +81,11 @@ Settings are self documenting.
 ```
 ### Extensions
 
-* [C# for Visual Studio Code ](https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp&dotnetid=1995460832.1502310825)
+* [C# for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp&dotnetid=1995460832.1502310825)
+* [Git Lens — git blame annotations, code lens, and more](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+* [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+* [Import Cost](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost)
+* [Quokka.js](https://marketplace.visualstudio.com/items?itemName=WallabyJs.quokka-vscode)
 
 ## Node
 
