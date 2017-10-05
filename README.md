@@ -58,6 +58,34 @@ alias code="/mnt/c/Program\ Files/Microsoft\ VS\ Code/Code.exe"
 alias explorer="/mnt/c/Windows/explorer.exe"
 ```
 
+### exa
+
+alternative to `ls` that also shows `git status` in list.
+
+![gentoo for Oh My Zsh](https://github.com/joelnet/development-environment/blob/master/content/exa.png)
+
+```sh
+# Install Rust
+sudo apt-get install pkg-config libssl-dev cmake
+curl -sf -L https://static.rust-lang.org/rustup.sh | sh
+
+# Install git2-rs dependency
+git clone https://github.com/alexcrichton/git2-rs && cd git2-rs
+cargo build
+cd .. && rm -rf git2-rs
+
+# Install exa
+git clone https://github.com/ogham/exa.git && cd exa
+sudo make install
+cd .. && rm -rf exa
+```
+
+Add the alias `lsx` to `~/.zshrc`
+
+```sh
+alias lsx="exa -la --git"
+```
+
 ## Visual Studio Code
 
 Settings are self documenting.
