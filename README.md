@@ -34,11 +34,15 @@ sudo apt-get install zsh
 sudo sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
-edit `~/.zshrc` to set the `gentoo` plugin
+edit `~/.zshrc` to set the `gentoo` theme
 
 ```
 ZSH_THEME="gentoo"
 ```
+
+add the `ssh-agent` plugin
+
+* https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/ssh-agent
 
 more themes here: https://github.com/robbyrussell/oh-my-zsh/wiki/themes
 
