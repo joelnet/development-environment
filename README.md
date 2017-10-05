@@ -60,9 +60,13 @@ alias explorer="/mnt/c/Windows/explorer.exe"
 
 ### exa
 
-alternative to `ls` that also shows `git status` in list.
+alternative to `ls` that also shows `git status` in list. (notice the M next to README.md)
 
-![gentoo for Oh My Zsh](https://github.com/joelnet/development-environment/blob/master/content/exa.png)
+![exa](https://github.com/joelnet/development-environment/blob/master/content/exa.png)
+
+exa also has a tree view
+
+![exa](https://github.com/joelnet/development-environment/blob/master/content/exa2.png)
 
 ```sh
 # Install Rust
@@ -83,7 +87,7 @@ cd .. && rm -rf exa
 Add the alias `lsx` to `~/.zshrc`
 
 ```sh
-alias lx="exa -lga --git"
+alias lx="exa -lga --git --group-directories-first"
 ```
 
 reload
