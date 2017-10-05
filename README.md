@@ -83,7 +83,13 @@ cd .. && rm -rf exa
 Add the alias `lsx` to `~/.zshrc`
 
 ```sh
-alias lsx="exa -la --git"
+alias lx="exa -lga --git"
+```
+
+reload
+
+```
+source ~/.zshrc
 ```
 
 ## Visual Studio Code
