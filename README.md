@@ -70,6 +70,7 @@ exa also has a tree view
 
 ```sh
 # Install Rust
+# note: if you get an error installing cmake, install it manually.
 sudo apt-get install pkg-config libssl-dev cmake
 curl -sf -L https://static.rust-lang.org/rustup.sh | sh
 
