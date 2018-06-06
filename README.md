@@ -200,3 +200,30 @@ Append this `.gitconfig` to your `~/.gitconfig` file.
 ![GIT log pretty format](https://github.com/joelnet/development-environment/blob/master/content/git-log-pretty3.png)
 
 courtesy of: https://stackoverflow.com/a/34467298/504836
+
+### Git Colors
+
+Add colors to your GIT by appending this to your `~/.gitconfig` file.
+
+```
+[apply]
+        whitespace = nowarn
+[color]
+        branch = auto
+        diff = auto
+        status = auto
+[color "branch"]
+        current = yellow reverse
+        local = yellow
+        remote = green
+[color "diff"]
+        meta = yellow bold
+        frag = magenta bold
+        old = red bold
+        new = green bold
+[color "status"]
+        added = yellow
+        changed = green
+        untracked = cyan
+```
+
