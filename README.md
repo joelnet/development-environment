@@ -1,6 +1,16 @@
 # development-environment
 Settings for _my_ development environments. I have a mix of Windows and Linux boxes which is why you will find a mix of Windows and Linux commands. On Windows I use the Linux Subsystem.
 
+## Windows
+
+### Putty
+
+Color scheme for putty
+
+![Putty Terminal View](https://darekkay.com/blog/my-putty-color-scheme/ls-eclectide.png)
+
+https://darekkay.com/blog/my-putty-color-scheme/
+
 ## Chocolately
 
 Chocolately is a package manager for Windows, similar to `apt` for Ubuntu. It will let you install software using a command like `choco install docker`.
