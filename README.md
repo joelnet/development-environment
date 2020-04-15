@@ -80,9 +80,8 @@ exa also has a tree view
 
 ```sh
 # Install Rust
-# note: if you get an error installing cmake, install it manually (https://cmake.org/download/)
-sudo apt-get install pkg-config libssl-dev cmake
-curl -sf -L https://static.rust-lang.org/rustup.sh | sh
+# (for WSL)
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 # Install git2-rs dependency
 git clone https://github.com/alexcrichton/git2-rs && cd git2-rs
