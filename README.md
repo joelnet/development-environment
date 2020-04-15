@@ -90,7 +90,7 @@ cargo install exa
 Add the alias `lsx` to `~/.zshrc`
 
 ```sh
-alias ll"exa -lga --git --group-directories-first"
+alias ll="exa -lga --git --group-directories-first"
 ```
 
 reload
