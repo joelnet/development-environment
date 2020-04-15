@@ -83,21 +83,14 @@ exa also has a tree view
 # (for WSL)
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
-# Install git2-rs dependency
-git clone https://github.com/alexcrichton/git2-rs && cd git2-rs
-cargo build
-cd .. && rm -rf git2-rs
-
 # Install exa
-git clone https://github.com/ogham/exa.git && cd exa
-sudo make install
-cd .. && rm -rf exa
+cargo install exa
 ```
 
 Add the alias `lsx` to `~/.zshrc`
 
 ```sh
-alias lx="exa -lga --git --group-directories-first"
+alias ll"exa -lga --git --group-directories-first"
 ```
 
 reload
