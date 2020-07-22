@@ -36,7 +36,7 @@ sudo apt install wget bc
 Confirmed working for kernel `5.4.51-v7l+`
 
 ```bash
-git https://github.com/cilynx/rtl88x2bu.git
+git clone https://github.com/cilynx/rtl88x2bu.git
 cd rtl88x2bu
 VER=$(sed -n 's/\PACKAGE_VERSION="\(.*\)"/\1/p' dkms.conf)
 sudo rsync -rvhP ./ /usr/src/rtl88x2bu-${VER}
