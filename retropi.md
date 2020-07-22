@@ -33,6 +33,15 @@ sudo apt install wget bc
 
 ## install wifi drivers for ASUS AC53-nano USB
 
+Confirmed working for kernel `4.19.97-v7l+`
+
+```bash
+git clone https://github.com/EntropicEffect/rtl8822bu.git
+cd rtl8822bu
+make
+sudo make install
+```
+
 Confirmed working for kernel `5.4.51-v7l+`
 
 ```bash
