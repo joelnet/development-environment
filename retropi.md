@@ -1,4 +1,4 @@
-# My setup for RetroPie
+# My setup for RetroPie on my Raspberry PI 4
 
 ## Image
 
@@ -62,3 +62,7 @@ wget https://bintray.com/ookla/download/download_file?file_path=ookla-speedtest-
 tar xvf download_file?file_path=ookla-speedtest-1.0.0-armhf-linux.tgz
 ./speedtest
 ```
+
+## Install Steam Link
+
+RetroPie Connfig -> RETROPIE SETUP -> Manage Packages -> Manage Experimental Packages -> steamlink -> Install from pre-compiled binary
