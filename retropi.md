@@ -36,10 +36,16 @@ sudo apt install wget bc
 Confirmed working for kernel `4.19.97-v7l+`
 
 ```bash
+# from: https://edimax.freshdesk.com/support/solutions/articles/14000062079-how-to-install-ew-7822ulc-adapter-on-raspberry-pi
 git clone https://github.com/EntropicEffect/rtl8822bu.git
 cd rtl8822bu
+nano Makefile
+# Change the lines #100 and #101 to the following:
+#   CONFIG_PLATFORM_I386_PC = n
+#   CONFIG_PLATFORM_ARM_RPI = y
 make
 sudo make install
+sudo reboot
 ```
 
 Confirmed working for kernel `5.4.51-v7l+`
