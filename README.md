@@ -1,6 +1,69 @@
 # development-environment
 Settings for _my_ development environments. I have a mix of Windows and Linux boxes which is why you will find a mix of Windows and Linux commands. On Windows I use the Linux Subsystem.
 
+## Mac
+
+### Android Mirror scrcpy
+
+https://github.com/Genymobile/scrcpy
+
+```bash
+# install scrcpy
+brew install scrcpy
+brew install android-platform-tools
+
+# install autoadb
+git clone https://github.com/rom1v/autoadb.git
+cd autoadb
+cargo build --release
+```
+
+Setup auto start on login
+
+```bash
+vim ~/autoadb/start-autoadb.sh
+```
+
+paste in:
+
+```bash
+#!/bin/sh
+
+/Users/joel/autoadb/target/release/autoadb scrcpy --turn-screen-off -s '{}'
+```
+
+create `autoscrcpy.plist`
+
+```bash
+vim /Library/LaunchAgents/autoscrcpy.plist
+```
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+        <key>EnvironmentVariables</key>
+        <dict>
+                <key>PATH</key>
+                <string>/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/joel/.cargo/bin</string>
+        </dict>
+        <key>Label</key>
+        <string>autoadb</string>
+        <key>Program</key>
+        <string>/Users/joel/autoadb/start-autoadb.sh</string>
+        <key>RunAtLoad</key>
+        <true/>
+        <key>StandardErrorPath</key>
+        <string>/Users/joel/autoadb/autoadb.log</string>
+        <key>StandardOutPath</key>
+        <string>/Users/joel/autoadb/autoadb.log</string>
+</dict>
+</plist>
+```
+
+
+
 ## Windows
 
 ### Putty
